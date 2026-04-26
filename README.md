@@ -16,12 +16,13 @@ La dificultad controla dos cosas: el tamaño del tablero y la probabilidad de ap
 ---
 ## 🎮 Acciones
 En cada turno se ingresa la posición `X Y` de una casilla y luego una acción:
-| Tecla | Acción      | Efecto |
-|-------|-------------|--------|
-| `1`   | Minar       | Revela la casilla. Si tiene una mina, la partida termina. Si está vacía, se expanden automáticamente las casillas adyacentes sin riesgo. |
-| `2`   | Marcar      | Coloca una bandera `X` sobre la casilla. Consume un marcador disponible. |
-| `3`   | Desmarcar   | Retira la bandera y devuelve el marcador. |
-| Letra | Rendirse    | Ingresa cualquier letra cuando el juego espere un número para abandonar la partida. |
+| Tecla         | Acción         | Efecto |
+|---------------|----------------|--------|
+| `1`           | Minar          | Revela la casilla. Si tiene una mina, la partida termina. Si está vacía, se expanden automáticamente las casillas adyacentes sin riesgo. |
+| `2`           | Marcar         | Coloca una bandera `X` sobre la casilla. Consume un marcador disponible. |
+| `3`           | Desmarcar      | Retira la bandera y devuelve el marcador. |
+| `Otro número` | Reseleccionar  | Te regresa a la fase de elección de casilla. |
+| Letra         | Rendirse       | Ingresa cualquier letra cuando el juego espere un número para abandonar la partida. |
 ---
 ## 📊 Tablero
 El tablero tiene dos capas: una interna con los valores reales, y una visible con el estado actual de exploración. Cada casilla puede encontrarse en uno de los siguientes estados:
