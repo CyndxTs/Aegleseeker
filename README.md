@@ -22,8 +22,6 @@ En cada turno se ingresa la posición `X Y` de una casilla y luego una acción:
 | `2`   | Marcar      | Coloca una bandera `X` sobre la casilla. Consume un marcador disponible. |
 | `3`   | Desmarcar   | Retira la bandera y devuelve el marcador. |
 | Letra | Rendirse    | Ingresa cualquier letra cuando el juego espere un número para abandonar la partida. |
-
-El número de marcadores disponibles es igual al total de minas generadas en el tablero.
 ---
 ## 📊 Tablero
 El tablero tiene dos capas: una interna con los valores reales, y una visible con el estado actual de exploración. Cada casilla puede encontrarse en uno de los siguientes estados:
