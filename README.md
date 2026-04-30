@@ -35,4 +35,4 @@ El tablero tiene dos capas: una interna con los valores reales, y una visible co
 | `*`     | Explosión de mina |
 ---
 ## 🛠️ Recursos
-- 🖥️ **NetBeans** — IDE utilizado para escribir y compilar el proyecto en C++.
+- 🖥️ **NetBeans** `21` — IDE utilizado para escribir y compilar el proyecto en C++.
